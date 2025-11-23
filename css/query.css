@@ -1,0 +1,924 @@
+/*HEADER-SECTION*/
+@media (max-width: 1400px) and (min-width: 769px) {
+  .header-wrapper {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 900px;
+  }
+
+  .header-wrapper p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .logo {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+  }
+  .clock,
+  .email,
+  .mobile {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-section {
+    padding: 0 20px;
+    background: none;
+    background-color: var(--bc-1-color);
+  }
+
+  .header-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 600px;
+    margin-bottom: 50px;
+  }
+  .header-wrapper p {
+    font-size: 38px;
+  }
+
+  .logo {
+    text-align: center;
+  }
+
+  .logo img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .hours p,
+  .e-mail p,
+  .contact p {
+    font-size: 15px;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .hours {
+    display: block;
+  }
+
+  .clock,
+  .email,
+  .mobile {
+    width: 35px;
+    height: 35px;
+  }
+
+  .fb-icon,
+  .map-icon {
+    gap: 25px;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .fb img,
+  .map img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+/*ŘEZANÉ*/
+@media (max-width: 1400px) and (min-width: 1050px) {
+  .gallery {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery h1 {
+    background-color: var(--bc-color);
+    font-family: "Pacifico";
+    width: 400px;
+    height: 400px;
+    font-size: 40px;
+    border-radius: 10px;
+  }
+  .gallery img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 1050px) and (min-width: 769px) {
+  .gallery {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .gallery h1 {
+    background-color: var(--bc-color);
+    font-family: "Pacifico";
+    width: 400px;
+    height: 400px;
+    font-size: 40px;
+    border-radius: 10px;
+  }
+  .gallery img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .gallery h1 {
+    background-color: var(--bc-color);
+    font-family: "Pacifico";
+    padding: 70px;
+    font-size: 24px;
+    border-radius: 10px;
+  }
+
+  .gallery img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .gallery {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .gallery h1 {
+    background-color: var(--bc-color);
+    font-family: "Pacifico";
+    width: 220px;
+    height: 220px;
+    font-size: 19px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .gallery img {
+    width: 220px;
+    height: 220px;
+    display: block;
+    border-radius: 10px;
+  }
+}
+
+/*VĚNCE*/
+@media (max-width: 1400px) and (min-width: 1050px) {
+  .grid-gallery {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 2500px;
+    margin: 100px auto;
+  }
+
+  .grid-gallery h1 {
+    background-color: var(--bc-color);
+    font-family: "Pacifico";
+    width: 350px;
+    height: 350px;
+    font-size: 40px;
+    border-radius: 10px;
+  }
+  .grid-gallery img {
+    width: 350px;
+    height: 350px;
+    display: block;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 1050px) and (min-width: 769px) {
+  .grid-gallery {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: 5000px;
+    margin: 100px auto;
+  }
+
+  .grid-gallery h1 {
+    background-color: var(--bc-color);
+    font-family: "Pacifico";
+    width: 400px;
+    height: 400px;
+    font-size: 40px;
+    border-radius: 10px;
+  }
+  .grid-gallery img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-gallery {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 50px auto;
+    height: 5000px;
+  }
+
+  .grid-gallery h1 {
+    background-color: var(--bc-color);
+    font-family: "Pacifico";
+    padding: 70px;
+    font-size: 34px;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .grid-gallery img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: 4500px;
+  }
+
+  .grid-gallery h1 {
+    background-color: var(--bc-color);
+    font-family: "Pacifico";
+    width: 220px;
+    height: 220px;
+    font-size: 19px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .grid-gallery img {
+    width: 220px;
+    height: 220px;
+    display: block;
+    border-radius: 10px;
+  }
+}
+
+/*SORTIMENT*/
+@media (max-width: 1400px) and (min-width: 1050px) {
+  .sortiment-gallery {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sortiment-gallery h1 {
+    background-color: var(--bc-color);
+    font-family: "Pacifico";
+    width: 400px;
+    height: 400px;
+    font-size: 40px;
+    border-radius: 10px;
+  }
+  .sortiment-gallery img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 1050px) and (min-width: 769px) {
+  .sortiment-gallery {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .sortiment-gallery h1 {
+    background-color: var(--bc-color);
+    font-family: "Pacifico";
+    width: 400px;
+    height: 400px;
+    font-size: 40px;
+    border-radius: 10px;
+  }
+  .sortiment-allery img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sortiment-gallery {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .sortiment-gallery h1 {
+    background-color: var(--bc-color);
+    font-family: "Pacifico";
+    padding: 70px;
+    font-size: 24px;
+    border-radius: 10px;
+  }
+
+  .sortiment-gallery img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .sortiment-gallery {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .sortiment-gallery h1 {
+    background-color: var(--bc-color);
+    font-family: "Pacifico";
+    width: 220px;
+    height: 220px;
+    font-size: 19px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .sortiment-gallery img {
+    width: 220px;
+    height: 220px;
+    display: block;
+    border-radius: 10px;
+  }
+}
+
+/*AKCE*/
+@media (max-width: 1400px) and (min-width: 1050px) {
+  .dyne-den-card-link {
+    max-width: 300px;
+    padding: 15px;
+  }
+
+  .logo-dyne-den .logo-dyne {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+
+  .logo-dyne-den img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .logo-dyne-den h1 {
+    font-size: 1.5em;
+  }
+
+  .logo-dyne-den h2 {
+    font-size: 1.2em;
+  }
+
+  .akce-section {
+    padding: 20px 10px;
+  }
+}
+
+@media (max-width: 1050px) and (min-width: 769px) {
+  .dyne-den-card-link {
+    max-width: 300px;
+    padding: 15px;
+  }
+
+  .logo-dyne-den .logo-dyne {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .logo-dyne-den img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .logo-dyne-den h1 {
+    font-size: 1.5em;
+  }
+
+  .logo-dyne-den h2 {
+    font-size: 1.2em;
+  }
+
+  .akce-section {
+    padding: 20px 10px;
+  }
+}
+
+@media (max-width: 769px) {
+  .dyne-den-card-link {
+    max-width: 300px;
+    padding: 15px;
+  }
+
+  .logo-dyne-den .logo-dyne {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .logo-dyne-den img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .logo-dyne-den h1 {
+    font-size: 1.5em;
+  }
+
+  .logo-dyne-den h2 {
+    font-size: 1.2em;
+  }
+
+  .akce-section {
+    padding: 20px 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .dyne-den-card-link {
+    max-width: 300px;
+    padding: 15px;
+  }
+
+  .logo-dyne-den .logo-dyne {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .logo-dyne-den img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .logo-dyne-den h1 {
+    font-size: 1.5em;
+  }
+
+  .logo-dyne-den h2 {
+    font-size: 1.2em;
+  }
+
+  .akce-section {
+    padding: 20px 10px;
+  }
+}
+
+/*DYNE-DEN*/
+@media (max-width: 1400px) and (min-width: 1350px) {
+  .dyne-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 2500px;
+  }
+
+  .dyne-gallery h1 {
+    background-color: var(--bc-color);
+    font-family: "Pacifico";
+    width: 400px;
+    height: 400px;
+    font-size: 60px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .dyne-gallery p {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50%;
+    text-align: center;
+  }
+
+  .dyne-gallery img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 1350px) and (min-width: 1151px) {
+  .dyne-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 2000px;
+  }
+
+  .dyne-gallery h1 {
+    background-color: var(--bc-color);
+    font-family: "Pacifico";
+    width: 350px;
+    height: 350px;
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .dyne-gallery p {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50%;
+    text-align: center;
+  }
+
+  .dyne-gallery img {
+    width: 350px;
+    height: 350px;
+    display: block;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 1150px) and (min-width: 891px) {
+  .dyne-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 3000px;
+  }
+
+  .dyne-gallery h1 {
+    background-color: var(--bc-color);
+    font-family: "Pacifico";
+    width: 350px;
+    height: 350px;
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .dyne-gallery p {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50%;
+    font-size: 35px;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+  }
+
+  .dyne-gallery img {
+    width: 350px;
+    height: 350px;
+    display: block;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 890px) and (min-width: 801px) {
+  .dyne-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 3000px;
+  }
+
+  .dyne-gallery h1 {
+    background-color: var(--bc-color);
+    font-family: "Pacifico";
+    width: 350px;
+    height: 350px;
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .dyne-gallery p {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50%;
+    text-align: center;
+  }
+
+  .dyne-gallery img {
+    width: 350px;
+    height: 350px;
+    display: block;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 800px) {
+  .dyne-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 2500px;
+  }
+
+  .dyne-gallery h1 {
+    background-color: var(--bc-color);
+    font-family: "Pacifico";
+    padding: 70px;
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .dyne-gallery p {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 25px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+  }
+
+  .dyne-gallery img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .dyne-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 2000px;
+  }
+
+  .dyne-gallery h1 {
+    background-color: var(--bc-color);
+    font-family: "Pacifico";
+    width: 250px;
+    height: 250px;
+    font-size: 32px;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+
+  .dyne-gallery p {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+  }
+
+  .dyne-gallery img {
+    width: 250px;
+    height: 250px;
+    display: block;
+    border-radius: 10px;
+    margin-left: 30%;
+  }
+}
+
+@media (max-width: 690px) {
+  .dyne-gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: 4000px;
+  }
+
+  .dyne-gallery h1 {
+    background-color: var(--bc-color);
+    font-family: "Pacifico";
+    width: 250px;
+    height: 250px;
+    font-size: 32px;
+    text-align: center;
+    margin-left: 28%;
+    border-radius: 10px;
+  }
+
+  .dyne-gallery p {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+  }
+
+  .dyne-gallery img {
+    width: 250px;
+    height: 250px;
+    display: block;
+    border-radius: 10px;
+    margin-left: 28%;
+  }
+}
+
+/*CAFE*/
+@media (max-width: 1400px) and (min-width: 1151px) {
+  .cafe-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 1150px;
+  }
+
+  .cafe-gallery img {
+    width: 350px;
+    height: 350px;
+    display: block;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 1150px) and (min-width: 1001px) {
+  .cafe-gallery {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cafe-gallery img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 1001px) and (min-width: 801px) {
+  .cafe-gallery {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cafe-gallery img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 800px) and (min-width: 600px) {
+  .cafe-gallery {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: 2500px;
+  }
+
+  .cafe-gallery img {
+    width: 350px;
+    height: 350px;
+    display: block;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 599px) and (min-width: 450px) {
+  .cafe-gallery {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: 1500px;
+  }
+
+  .cafe-gallery h1 {
+    background-color: var(--bc-color);
+    font-family: "Pacifico";
+    width: 220px;
+    height: 220px;
+    font-size: 19px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .cafe-gallery img {
+    width: 220px;
+    height: 220px;
+    display: block;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 449px) {
+  .cafe-gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: 1500px;
+  }
+
+  .cafe-gallery h1 {
+    background-color: var(--bc-color);
+    font-family: "Pacifico";
+    width: 200px;
+    height: 200px;
+    font-size: 19px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .cafe-gallery img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    border-radius: 10px;
+  }
+}
+
+/*KVETOMAT*/
+@media (max-width: 1650px) and (min-width: 1400px) {
+  .map-section {
+    max-width: 800px;
+    height: 1300px;
+  }
+
+  .maps {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50%;
+    width: 800px;
+  }
+
+  .map-item h2 {
+    margin-left: 20px;
+  }
+
+  .dobris {
+    padding: 0 60px;
+  }
+
+  .map-item img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 1399px) and (min-width: 1200px) {
+  .map-section {
+    max-width: 800px;
+    height: 1500px;
+  }
+
+  .maps {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    width: 800px;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 769px) {
+  .map-section {
+    max-width: 800px;
+    height: 1500px;
+  }
+
+  .maps {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    width: 800px;
+  }
+}
+
+@media (max-width: 768px) {
+  .map-section {
+    max-width: 800px;
+    height: 1500px;
+  }
+
+  .maps {
+    display: flex;
+    flex-direction: column;
+  }
+}

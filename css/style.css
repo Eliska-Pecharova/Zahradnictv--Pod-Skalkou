@@ -1,0 +1,274 @@
+:root {
+  --logo-color: #7aa53a;
+  --bc-color: #bfcf8b;
+  --bc-1-color: #b57f50;
+  --bc-2-color: #f9688a;
+  --text-color: #000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+}
+
+/*HEADER-SECTION*/
+.header-section {
+  display: flex;
+  background: linear-gradient(
+    70deg,
+    var(--bc-1-color) 0%,
+    var(--bc-1-color) 85%,
+    var(--bc-2-color) 85%,
+    var(--bc-2-color) 100%
+  );
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.header-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  flex-wrap: nowrap;
+}
+
+.header-wrapper > div {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.header-wrapper p {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.logo {
+  height: 150px;
+  width: 150px;
+}
+
+.clock {
+  width: 80px;
+  height: 80px;
+}
+
+.hours {
+  flex-direction: column;
+  line-height: 1.4;
+}
+
+.email {
+  width: 80px;
+  height: 80px;
+}
+
+.mobile {
+  transform: scaleX(-1);
+  width: 80px;
+  height: 80px;
+}
+
+/*HERO-SECTION*/
+.hero-section {
+  background-image: url("/image/hero-section.jpg");
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.hero-wrapper {
+  height: 700px;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.hero-text {
+  color: white;
+  font-size: 54px;
+  font-family: "Pacifico";
+  text-align: left;
+  position: absolute;
+  bottom: 35%;
+  right: 30%;
+}
+
+.navigation {
+  background-color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.icon-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px;
+  margin-top: 20px;
+}
+
+.icon-link {
+  width: 120px;
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s;
+}
+
+.icon-link img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  margin-bottom: 10px;
+  transition: box-shadow 0.3s;
+}
+
+.icon-link span {
+  font-weight: bold;
+  font-size: 24px;
+  color: var(--bc-1-color);
+}
+
+.icon-link:hover {
+  transform: translateY(-5px);
+}
+
+.icon-link:hover img {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.slideDown {
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+}
+
+@media (max-width: 768px) {
+  .hero-wrapper {
+    width: 70%;
+  }
+
+  .hero-text {
+    font-size: 1.8rem;
+  }
+
+  .icon-link {
+    width: 100px;
+  }
+
+  .icon-link img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 499px) {
+  .icon-link img {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+/*INFO-SECTION*/
+.info-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px 70px;
+  background-color: #f5f5f5;
+  font-family: "Segoe UI", sans-serif;
+  color: #333;
+}
+
+.info-box {
+  flex: 1 1 45%;
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+
+.info-box h2 {
+  margin-bottom: 15px;
+  font-size: 28px;
+  color: var(--bc-2-color);
+}
+
+.info-box p {
+  font-size: 22px;
+}
+
+.info-box a {
+  font-size: 20px;
+}
+
+.aktuality a {
+  display: inline-block;
+  margin-top: 10px;
+  color: var(--logo-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.aktuality a:hover {
+  text-decoration: underline;
+}
+
+.proc ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  line-height: 1.6;
+  font-size: 22px;
+}
+
+@media (max-width: 768px) {
+  .info-section {
+    flex-direction: column;
+  }
+
+  .info-box {
+    flex: 1 1 100%;
+    margin-bottom: 30px;
+  }
+}
+
+/*FOOTER-SECTION*/
+.footer-container {
+  background-color: var(--bc-1-color);
+  color: var(--bc-2-color);
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.footer-container h4 {
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 15px;
+  color: white;
+  line-height: 1.6;
+}
+
+.footer-copywright {
+  font-size: 18px;
+  color: var(--text-color);
+}

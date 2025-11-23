@@ -1,0 +1,131 @@
+:root {
+  --logo-color: #7aa53a;
+  --bc-color: #bfcf8b;
+  --bc-1-color: #b57f50;
+  --bc-2-color: #f9688a;
+  --text-color: #000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+}
+
+/*HEADER-SECTION*/
+.header-section {
+  display: flex;
+  background: linear-gradient(
+    70deg,
+    var(--bc-1-color) 0%,
+    var(--bc-1-color) 85%,
+    var(--bc-2-color) 85%,
+    var(--bc-2-color) 100%
+  );
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.header-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  flex-wrap: nowrap;
+}
+
+.header-wrapper > div {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.header-wrapper p {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.logo {
+  height: 150px;
+  width: 150px;
+}
+
+.clock {
+  width: 80px;
+  height: 80px;
+}
+
+.hours {
+  flex-direction: column;
+  line-height: 1.4;
+}
+
+.email {
+  width: 80px;
+  height: 80px;
+}
+
+.mobile {
+  transform: scaleX(-1);
+  width: 80px;
+  height: 80px;
+}
+
+/*VĚNCE.HTML*/
+.grid-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding: 50px 40px;
+  max-width: 1200px;
+  height: 1500px;
+  margin: 200px auto;
+}
+
+.grid-gallery h1 {
+  background-color: var(--bc-color);
+  font-family: "Pacifico";
+  padding: 70px;
+  font-size: 34px;
+  border-radius: 10px;
+}
+
+.grid-gallery img {
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/*FOOTER-SECTION*/
+.footer-container {
+  background-color: var(--bc-1-color);
+  color: var(--bc-2-color);
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.footer-container h4 {
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 15px;
+  color: white;
+  line-height: 1.6;
+}
+
+.footer-copywright {
+  font-size: 18px;
+  color: var(--text-color);
+}
