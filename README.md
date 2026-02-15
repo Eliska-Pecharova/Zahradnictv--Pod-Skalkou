@@ -1,3 +1,25 @@
-# Zahradnictv--Pod-Skalkou
+# 🌼 Zahradnictví Pod Skalkou – Website
 
-This project was my first order. The client eventually changed his mind and is therefore not active. Still, it means a lot to me - it was my first large-scale project, thanks to which I gained experience and moved forward.
+This project is a simple, clean and fully responsive website created for a family‑owned garden center. The goal was to present their services, products and atmosphere in a friendly and visually appealing way while keeping the code lightweight and easy to maintain.
+
+## ✨ Features
+- Modern, responsive layout
+- Clean presentation of services and products
+- Simple navigation and user‑friendly structure
+- Custom styling without external UI libraries
+- Optimized images for faster loading
+- Designed to reflect the warm, natural feel of a local garden center
+
+## 🛠 Technologies
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6+)**
+
+## 🎯 Purpose
+The purpose of this project was to create a straightforward, visually pleasant website that helps a small business present itself online. It also served as practice in building clean layouts, working with images, and designing a calm, nature‑inspired UI.
+
+## 🚀 Run locally
+Just open the `index.html` file in your browser or use a simple local server:
+
+```bash
+npx serve
