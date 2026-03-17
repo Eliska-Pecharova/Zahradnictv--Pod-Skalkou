@@ -17,9 +17,3 @@ This project is a simple, clean and fully responsive website created for a famil
 
 ## 🎯 Purpose
 The purpose of this project was to create a straightforward, visually pleasant website that helps a small business present itself online. It also served as practice in building clean layouts, working with images, and designing a calm, nature‑inspired UI.
-
-## 🚀 Run locally
-Just open the `index.html` file in your browser or use a simple local server:
-
-```bash
-npx serve
